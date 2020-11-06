@@ -1,0 +1,205 @@
+[{
+        "meta1": "end",
+        "id": "0",
+        "type": "background",
+        "backgroundName": "background_ons-ms-apartment-bedroom-5",
+        "nextId": "1"
+    },
+    {
+        "meta1": "end",
+        "id": "1",
+        "text": "You have been so immersed with the several cases that plagued the company this week that you didn’t even notice it was Thursday already.",
+        "type": "middle",
+        "nextId": "2"
+    },
+    {
+        "meta1": "end",
+        "emotion": "default",
+        "character": "MAINHERO",
+        "id": "2",
+        "text": "How come it’s here so quickly? I guess the Gala doesn’t make this week any special than the other ones.",
+        "boxType": "thought",
+        "type": "left",
+        "nextId": "3",
+        "choices": []
+    },
+    {
+        "meta1": "end",
+        "emotion": "sad",
+        "character": "MAINHERO",
+        "id": "3",
+        "text": "Well, except Obnoxious Oliver questioning me repeatedly about who exactly I’m bringing to the Gala.",
+        "boxType": "thought",
+        "type": "left",
+        "nextId": "4",
+        "choices": []
+    },
+    {
+        "meta1": "end",
+        "emotion": "angry",
+        "character": "MAINHERO",
+        "id": "4",
+        "text": "And Marco’s endless texts begging me to change my mind and taste a bit of the 'Marco sauce'.",
+        "boxType": "thought",
+        "type": "left",
+        "nextId": "5",
+        "choices": []
+    },
+    {
+        "meta1": "end",
+        "id": "5",
+        "text": "You roll your eyes and scoff disgusted by both guys. You can’t seem to tell who pisses you off more.",
+        "type": "middle",
+        "nextId": "6"
+    },
+    {
+        "meta1": "end",
+        "emotion": "default",
+        "character": "MAINHERO",
+        "id": "6",
+        "text": "I can’t stand...",
+        "boxType": "default",
+        "type": "left",
+        "nextId": "7",
+        "choices": []
+    },
+    {
+        "meta1": "end",
+        "emotion": "default",
+        "character": "MAINHERO",
+        "id": "7",
+        "text": "At least, Russell took responsibility and talked to Marco. I wonder, what did he say to him?",
+        "boxType": "thought",
+        "type": "left",
+        "nextId": "8",
+        "choices": []
+    },
+    {
+        "meta1": "end",
+        "emotion": "sad",
+        "character": "MAINHERO",
+        "id": "8",
+        "text": "When I asked him, all he told me was he took care of it.",
+        "boxType": "thought",
+        "type": "left",
+        "nextId": "9",
+        "choices": []
+    },
+    {
+        "meta1": "end",
+        "emotion": "default",
+        "character": "MAINHERO",
+        "id": "9",
+        "text": "At least I need to do my part too and try to look as gorgeous as I can for my best friend.",
+        "boxType": "thought",
+        "type": "left",
+        "nextId": "10",
+        "choices": []
+    },
+    {
+        "meta1": "end",
+        "id": "10",
+        "text": "You open your closet and browse through your clothes.",
+        "type": "middle",
+        "nextId": "11"
+    },
+    {
+        "meta1": "end",
+        "emotion": "default",
+        "character": "MAINHERO",
+        "id": "11",
+        "text": "I need an outfit that says a loving woman in a relationship with the man of her dreams.",
+        "boxType": "thought",
+        "type": "left",
+        "nextId": "12",
+        "choices": []
+    },
+    {
+        "meta1": "end",
+        "id": "12",
+        "text": "You do a shimmy in front of the mirror as you check yourself out.",
+        "type": "middle",
+        "nextId": "13"
+    },
+    {
+        "meta1": "end",
+        "emotion": "default",
+        "character": "MAINHERO",
+        "id": "13",
+        "text": "Looks perfect to me. I hope Russell would love it too...",
+        "boxType": "thought",
+        "type": "left",
+        "nextId": "14",
+        "choices": []
+    },
+    {
+        "meta1": "end",
+        "emotion": "shy",
+        "character": "MAINHERO",
+        "id": "14",
+        "text": "I wonder, why do I keep trying to impress him so much… Pull yourself together, MAIN777!",
+        "boxType": "thought",
+        "type": "left",
+        "nextId": "15",
+        "choices": []
+    },
+    {
+        "meta1": "end",
+        "id": "15",
+        "type": "background",
+        "backgroundName": "background_ons-lux-party-hall-6",
+        "nextId": "16"
+    },
+    {
+        "meta1": "end",
+        "id": "16",
+        "text": "You take a taxi to the event. You walk in to find yourself in a glamorous ballroom with dramatic chandeliers and exquisite couches.",
+        "type": "middle",
+        "nextId": "17"
+    },
+    {
+        "meta1": "end",
+        "id": "17",
+        "text": "Russell is already waiting for you. You stand still checking him from toes to head. Your heart beats faster.",
+        "type": "middle",
+        "nextId": "18"
+    },
+    {
+        "meta1": "end",
+        "emotion": "surprised",
+        "character": "MAINHERO",
+        "id": "18",
+        "text": "Wow! I don’t recall him wearing such a gorgeous suit ever!",
+        "boxType": "thought",
+        "type": "left",
+        "nextId": "19",
+        "choices": []
+    },
+    {
+        "meta1": "end",
+        "emotion": "default",
+        "character": "Russell",
+        "id": "19",
+        "text": "Sweetheart! Finally, I was starting to die of boredom, though I came only five minutes ago.",
+        "boxType": "default",
+        "type": "right",
+        "nextId": "20"
+    },
+    {
+        "meta1": "end",
+        "id": "20",
+        "text": "He approaches you and gives a light kiss on your hand. You feel blush pouring to your cheeks.",
+        "type": "middle",
+        "nextId": "21"
+    },
+    {
+        "meta1": "end",
+        "emotion": "default",
+        "character": "Russell",
+        "id": "21",
+        "text": "What’s wrong, girl?",
+        "boxType": "default",
+        "type": "right",
+        "nextId": "22"
+    }
+]
