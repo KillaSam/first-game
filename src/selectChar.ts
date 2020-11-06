@@ -33,19 +33,19 @@ export class SelectChar extends Phaser.Scene {
     }
 
     preload(): void{
-        this.load.image("bg", "./../assets/ons-lux-party-balcony-7.jpg");
-        this.load.image("body1", "./../assets/MAINHERO/body/1/regular1.png ");
-        this.load.image("body2", "./../assets/MAINHERO/body/3/regular2.png ");
-        this.load.image("back1", "./../assets/MAINHERO/hair/back/back1.png")
-        this.load.image("back2", "./../assets/MAINHERO/hair/back/back2.png")
-        this.load.image("front1", "./../assets/MAINHERO/hair/front/var1.png")
-        this.load.image("front2", "./../assets/MAINHERO/hair/front/var2.png")
-        this.load.image("defCloth", "./../assets/MAINHERO/clothes/regular.png");
-        this.load.image("var1", "./../assets/MAINHERO/clothes/var1.png");
-        this.load.image("var2", "./../assets/MAINHERO/clothes/var2.png");
-        this.load.image("arrow", "./../assets/signs/vector.png");
-        this.load.image('view', './../assets/signs/View.png')
-        this.load.spritesheet("item-choosen", './../assets/signs/Item-choosen.png', { frameHeight: 216, frameWidth: 40});
+        this.load.image("bg", "https://github.com/KillaSam/first-game/blob/main/assets/ons-lux-party-balcony-7.jpg");
+        this.load.image("body1", "https://github.com/KillaSam/first-game/blob/main/assets/MAINHERO/body/1/regular1.png ");
+        this.load.image("body2", "https://github.com/KillaSam/first-game/blob/main/assets/MAINHERO/body/3/regular2.png ");
+        this.load.image("back1", "https://github.com/KillaSam/first-game/blob/main/assets/MAINHERO/hair/back/back1.png")
+        this.load.image("back2", "https://github.com/KillaSam/first-game/blob/main/assets/MAINHERO/hair/back/back2.png")
+        this.load.image("front1", "https://github.com/KillaSam/first-game/blob/main/assets/MAINHERO/hair/front/var1.png")
+        this.load.image("front2", "https://github.com/KillaSam/first-game/blob/main/assets/MAINHERO/hair/front/var2.png")
+        this.load.image("defCloth", "https://github.com/KillaSam/first-game/blob/main/assets/MAINHERO/clothes/regular.png");
+        this.load.image("var1", "https://github.com/KillaSam/first-game/blob/main/assets/MAINHERO/clothes/var1.png");
+        this.load.image("var2", "https://github.com/KillaSam/first-game/blob/main/assets/MAINHERO/clothes/var2.png");
+        this.load.image("arrow", "https://github.com/KillaSam/first-game/blob/main/assets/signs/vector.png");
+        this.load.image('view', 'https://github.com/KillaSam/first-game/blob/main/assets/signs/View.png')
+        this.load.image("item-choosen", 'https://github.com/KillaSam/first-game/blob/main/assets/signs/Item-choosen.png');
     }
 
     create(): void{

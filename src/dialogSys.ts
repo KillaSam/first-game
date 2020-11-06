@@ -51,21 +51,21 @@ export class DialogSys extends Phaser.Scene {
     }
 
     preload() {     
-        this.load.image('close', './../assets/signs/Close.png')   
+        this.load.image('close', 'https://github.com/KillaSam/first-game/blob/main/assets/signs/Close.png')   
         if(this.currScene.type === "background"){
             this.textures.remove('bg');
             const fileName = this.currScene.backgroundName.split('_');            
-            this.load.image('bg', './../assets/'+fileName[1]+'.jpg');            
+            this.load.image('bg', 'https://github.com/KillaSam/first-game/blob/main/assets/'+fileName[1]+'.jpg');            
         } else if(this.currScene.type === "right" || this.currScene.type === 'left'){                  
-            this.load.image('Russell_body', './../assets/Russell/1/body.png');
-            this.load.image('Russell_cloths', './../assets/Russell/1/cloths.png');
-            this.load.image('Russell_back_hair', './../assets/Russell/1/hair/back.png');
-            this.load.image('Russell_front_hair', './../assets/Russell/1/hair/front.png');
-            this.load.image('emotion', './../assets/'+this.currScene.character+'/'+(this.body === 'body1' ? '1': (this.currScene.character==="Russell" ? '1' : '2'))+'/'+this.currScene.emotion+'.png')                            
-            this.load.image('emotion_layout', './../assets/layout_emotions/'+this.currScene.emotion+'.png');
-            this.load.image('dialogWindow', './../assets/boxTypes/'+this.currScene.boxType+'.png');
+            this.load.image('Russell_body', 'https://github.com/KillaSam/first-game/blob/main/assets/Russell/1/body.png');
+            this.load.image('Russell_cloths', 'https://github.com/KillaSam/first-game/blob/main/assets/Russell/1/cloths.png');
+            this.load.image('Russell_back_hair', 'https://github.com/KillaSam/first-game/blob/main/assets/Russell/1/hair/back.png');
+            this.load.image('Russell_front_hair', 'https://github.com/KillaSam/first-game/blob/main/assets/Russell/1/hair/front.png');
+            this.load.image('emotion', 'https://github.com/KillaSam/first-game/blob/main/assets/'+this.currScene.character+'/'+(this.body === 'body1' ? '1': (this.currScene.character==="Russell" ? '1' : '2'))+'/'+this.currScene.emotion+'.png')                            
+            this.load.image('emotion_layout', 'https://github.com/KillaSam/first-game/blob/main/assets/layout_emotions/'+this.currScene.emotion+'.png');
+            this.load.image('dialogWindow', 'https://github.com/KillaSam/first-game/blob/main/assets/boxTypes/'+this.currScene.boxType+'.png');
             if(this.currScene.boxType === "thought"){
-                this.load.image('dialogWindow-1', './../assets/boxTypes/'+this.currScene.boxType+'-1.png');
+                this.load.image('dialogWindow-1', 'https://github.com/KillaSam/first-game/blob/main/assets/boxTypes/'+this.currScene.boxType+'-1.png');
             }
             
         }
